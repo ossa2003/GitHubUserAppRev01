@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.githubuserrev1.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_userDetailFragment"
+            app:destination="@id/userDetailFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/userDetailFragment"
+        android:name="com.example.githubuserrev1.fragment.DetilUserFragment"
+        android:label="fragment_user_detail"
+        tools:layout="@layout/fragment_detil_user" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.githubuserrev1.fragment.FavouriteFragment"
+        android:label="FavoriteFragment"
+        tools:layout="@layout/fragment_list_favourite">
+        <action
+            android:id="@+id/action_favoriteFragment_to_userDetailFragment"
+            app:destination="@id/userDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.githubuserrev1.fragment.PengaturanFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_pengaturan" />
+</navigation>

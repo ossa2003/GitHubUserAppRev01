@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_1">#0082C8</color> <!-- Light Gray -->
+    <color name="light_2">#FF8FAF</color> <!-- Light Blue -->
+    <color name="light_3">#C08BC0</color> <!-- Soft Pink -->
+    <color name="light_4">#FA58B6</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="dark_1">#362222</color>
+    <color name="dark_2">#171010</color>
+    <color name="dark_3">#423F3E</color>
+    <color name="dark_4">#2B2B2B</color>
+    <color name="pink_500">#D81B60</color>
+    <color name="pink_200">#FF8FAF</color>
+</resources>
